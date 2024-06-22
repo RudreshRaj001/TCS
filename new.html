@@ -2,21 +2,20 @@
 <html>
     <head>
         <title>Tata Communications</title>
-        <link href="new.css" rel="stylesheet">
+        <link href="styles/new.css" rel="stylesheet">
         <body>
             <div class="header">
-                <div class="left-section">
-                    <div class="title">
-                        <b>TATA COMMUNICATIONS</b>
-                    </div>
-                </div>
-                <div class="right-section">
-                    <img class="logo" src="Images/LOGO.jpg">
+                <div class="title">
+                    <b>TATA COMMUNICATIONS</b>
                 </div>
             </div>
 
-            <form class="form">
-                <h2>Login</h2>
+            <div class="Logo">
+                <img class="logo" src="Images/LOGO.jpg">
+            </div>
+
+            <form class="form margin">
+                <h2 class="name">Login</h2>
                 <div class="form-group">
                     <label for="username">Username:</label>
                     <input type="text" id="username" name="username">
@@ -33,7 +32,7 @@
             </form>
 
             <form class="form">
-                <h2>Upload Document</h2>
+                <h2 class="name">Upload Document</h2>
                 <div class="form-group">
                     <label for="name">Name:</label>
                     <input type="text" id="name" />
@@ -57,7 +56,8 @@
                 <div class="form-group">
                     <button type="submit">Send</button>
                 </div>
-             </form>
+            </form>
+
         </body>
     </head>
 </html>

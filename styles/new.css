@@ -1,37 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 body{
     background-color: whitesmoke;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100;
 }
 
 .header{
     height: 100px;
+    width: 100vw;
     display: flex;
-    flex-direction:row ;
-    justify-content: space-between;
-}
-
-.left-section{
-    display: flex;
+    flex-direction:row;
     align-items: center;
+    justify-content: space-around;
 }
 
 .title{
     color: black;
     font-size: 52px;
-    margin-left: 20px;
 }
 
-.right-section{
-    margin-top: 20px;
-    display: flex;
+.Logo{
+    position: absolute;
+    top: 20px;
+    right: 70px;
     height: 55px;
-    justify-content: space-between;
+    width: 80px;
 }
 
 .logo{
     height: 52px;
-    border-radius: 0;
+    margin: 0px;
 }
+
+.name{
+    margin-bottom: 20px;
+}
+
 
 .form{
     max-width: 400px;
@@ -54,7 +61,8 @@ body{
     margin-bottom: 10px;
 }
 .form-group input, .form-group textarea {
-    width: 100px;
+    width: 250px;
+    border-radius: 4px;
     padding: 10px;
     border: 1px solid #ccc;
 }
@@ -63,6 +71,7 @@ body{
     background-color: #4CAF50;
     color: #fff;
     padding: 10px 20px;
+    margin-top: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
